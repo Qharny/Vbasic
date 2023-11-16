@@ -13,10 +13,8 @@ ElseIf operation = "/" Then
         result = num1 / num2
     Else
         MsgBox "Cannot divide by zero!", 16, "Error"
-        Exit Sub
     End If
 Else
     MsgBox "Invalid operation!", 16, "Error"
-    Exit Sub
 End If
 MsgBox "The result is: " & result, 64, "Calculator"
